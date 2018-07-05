@@ -1,0 +1,9 @@
+.heading {
+  display: flex;
+  color: white;
+  background-color: black;
+  }
+
+.logo {diplay: inline-flex;}
+
+.heading p {display: inline-flex;}

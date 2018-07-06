@@ -34,3 +34,33 @@ html {font-size 18px;}
   height: 25rem;
   background-size: cover;
 }
+
+.newarrival {
+  background-color: black;
+  width: 20rem;
+  margin-top: 9rem;
+  display: flex;
+  /*justify-content: flex-start;*/
+}
+
+.container {
+  width: 960px;
+  display: flex;
+}
+
+.newarrival h6, .newarrival p{
+  color: white;
+  flex-direction: column;
+}
+
+.newarrival h6 {
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.newarrival p {
+  font-family: Helvetica;
+  font-size: 2rem;
+  font-weight: bold;
+}

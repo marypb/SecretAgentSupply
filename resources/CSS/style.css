@@ -30,23 +30,25 @@ html {font-size 18px;}
 .motorcycles {
   display: flex;
   background-image: url("C:/Users/Mary/test/git_practice/marypb.github.io/SecretAgentSupply/resources/images/moto.jpeg");
+  background-position: center;
   width: 100%;
-  height: 25rem;
+  height: 30rem;
   background-size: cover;
-}
-
-.newarrival {
-  background-color: black;
-  width: 20rem;
-  margin-top: 9rem;
-  display: flex;
-  /*justify-content: flex-start;*/
-}
+  justify-content: center;
+  }
 
 .container {
   width: 960px;
   display: flex;
-}
+  }
+
+.newarrival {
+  background-color: black;
+  width: 29rem;
+  margin-top: 11rem;
+  height: 13rem;
+  flex-direction: column;
+  }
 
 .newarrival h6, .newarrival p{
   color: white;
@@ -64,3 +66,8 @@ html {font-size 18px;}
   font-size: 2rem;
   font-weight: bold;
 }
+
+.text {
+  margin-top: 2rem;
+  margin-left: 3rem;
+  }

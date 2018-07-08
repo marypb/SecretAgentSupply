@@ -75,15 +75,24 @@ html {font-size 18px;}
 .menu {
   background: firebrick;
   display: flex;
+  justify-content: center;
   }
 
-  .menu ul {
+.menu ul {
     list-style: none;
-    flex-direction: row;
     }
 
-  span {
-    color: white;
-    font-family: Helvetica;
-    font-weight: bold;
+.list {
+  display: flex;
+  width: 960px;
+  justify-content: space-between;
   }
+
+li {
+  color: white;
+  font-family: Helvetica;
+  font-weight: bold;
+  display: inline;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}

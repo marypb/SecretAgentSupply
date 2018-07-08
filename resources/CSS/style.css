@@ -139,6 +139,22 @@ li {
   margin: 0;;
   }
 
+.information {
+  display: flex;
+  justify-content: center;
+}
+
+.container3 {
+  display: flex;
+  width: 960px;
+  justify-content: space-between;
+}
+
+.location, .hours {
+  display: flex;
+  flex-direction: column;
+}
+
 footer {
   background-color: black;
   display: flex;

@@ -130,7 +130,7 @@ li {
     margin: 4rem auto;
     width: 50%;
     padding-top: .5rem;
-    padding-bottom: .25rem;
+    padding-bottom: .5rem;
   }
 
 .text {
@@ -141,6 +141,8 @@ li {
   width: 100%;
   margin: 0;
   }
+
+  .pen text, .watch text, .glasses text {margin: auto;}
 
 .information {
   display: flex;

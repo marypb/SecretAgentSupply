@@ -139,4 +139,18 @@ li {
   margin: 0;;
   }
 
-  /*.text p {margin: 0.5rem auto;}*/
+footer {
+  background-color: black;
+  display: flex;
+  height: 10rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.container4 {
+  width: 960px;
+  justify-content: flex-start;
+  color: white;
+  font-family: Helvetica;
+  font-weight: bold;
+}

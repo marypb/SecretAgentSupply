@@ -153,6 +153,21 @@ li {
 .location, .hours {
   display: flex;
   flex-direction: column;
+  font-family: Helvetica;
+  font-weight: bold;
+  width: 35%;
+  margin-top: 3rem;
+}
+
+.locationtitle, .hourstitle {
+  color: white;
+  background-color: black;
+}
+
+.locationtitle p, .hourstitle p {
+  margin-left: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 footer {
@@ -161,6 +176,7 @@ footer {
   height: 10rem;
   justify-content: center;
   align-items: center;
+  margin-top: 4rem;
 }
 
 .container4 {

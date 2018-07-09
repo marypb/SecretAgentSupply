@@ -139,6 +139,8 @@ li {
   margin: 0;
 }
 
+.pen p, .watch p, .glasses p {text-align: center;}
+
 .information {
   display: flex;
   justify-content: center;

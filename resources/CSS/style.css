@@ -122,15 +122,12 @@ li {
   display: block;
   width: 100%
   height: auto;
-  /*padding-top: .5rem;*/
   }
 
   .glasses img {
-    height: 50%;
+    height: 59%;
     margin: 4rem auto;
-    width: 50%;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
+    width: 59%;
   }
 
 .text {
@@ -140,9 +137,7 @@ li {
   font-weight: bold;
   width: 100%;
   margin: 0;
-  }
-
-  .pen text, .watch text, .glasses text {margin: auto;}
+}
 
 .information {
   display: flex;

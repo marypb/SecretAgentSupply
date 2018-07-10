@@ -1,4 +1,4 @@
-html {font-size 18px;}
+html {font-size: 18px;}
 
 .heading {
   display: flex;
@@ -207,17 +207,21 @@ footer {
 }
 
 @media only screen and (max-width: 470px) {
-  .motorcycles {height: 15rem;}
+  .motorcycles {
+    height: 15rem;
+    }
   .menu {
     width: 100%;
     margin-top: 1rem;
-    background-color: firebrick;
     }
   .menu ul {display: none;}
-  .menu p {display: inline;}
+  .menu p {
+    display: inline;
+    }
   .glasses {display: none;}
   .watch {display: none;}
   .pen {width: 90%;}
+  .container2 {justify-content: center;}
   .container4 {text-align: center;}
   .container3 {
     width: 90%;
@@ -227,18 +231,22 @@ footer {
   .hours {margin-top: 0.5rem;}
   .newarrival {
     width: 100%;
-    overflow: hidden;}
+    overflow: hidden;
+    height: 5rem;
+    align-content: center;
+    }
   .newarrival h6 {
     font-family: Helvetica;
     font-size: 0.77rem;
     font-weight: bold;
-  }
+    }
   .newarrival p {
     font-family: Helvetica;
     font-size: 1rem;
     font-weight: bold;
+    margin-top: -1rem;
   }
-  .text {
+  .newarrival .text {
     margin-top: 1rem;
     margin-left: 2rem;
   }
